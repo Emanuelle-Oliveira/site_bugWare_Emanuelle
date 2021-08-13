@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#home{
+	padding: 0;
+	margin: 0;	
+}
+
+#servicos{
+	background-color: white;
+	height: 800px;
+	padding: 100px;
+}
+
+#titulo{
+	background-color:white;
+	float: right;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#parte1{
+	height: 562px;
+	width: 365px;
+	float: left;
+	background-color: white;
+	margin: 10px;
+	padding-top: 200px;
+}
+
+#parte2{
+	height: 622px;
+	width: 350px;
+	float: left;
+	background-color: white;
+	margin: 10px;
+}
+
+#parte3{
+	height: 562px;
+	width: 365px;
+	float: left;
+	background-color: white;
+	margin: 10px;
+	padding-top: 200px;
+}
+
+#mej{
+	background-color: black;
+	padding: 100px;
+}
+
+h1{
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size: 15px;
+	color: #808080;
+	font-family:'Segoe UI', sans-serif;
+	text-align: center;
+}
+
+h3{
+	font-size: 17px;
+	font-family:'Segoe UI', sans-serif;
+	text-align: left;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 15px;
+	color: #808080;
+	font-family:'Segoe UI', sans-serif;
+	text-align: left;
+}
