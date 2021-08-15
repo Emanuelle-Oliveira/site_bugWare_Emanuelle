@@ -48,8 +48,39 @@
 }
 
 #mej{
-	background-color: black;
-	padding: 100px;
+	background-color: #F8F9F9;
+	padding: 100px 150px;
+	height: 400px;
+}
+
+#texto{
+	height: 380px;
+	width: 365px;
+	float: left;
+	background-color: #F8F9F9;
+	margin: 10px;
+}
+
+#imagem{
+	height: 380px;
+	width: 600px;
+	float: left;
+	background-color: #F8F9F9;
+	margin: 10px;
+	margin-left: 50px;
+}
+
+#botao{
+	background-color: #3E194D;
+	color: #A7FBD3;
+	font-family:'Segoe UI', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 30px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+
 }
 
 h1{
@@ -76,5 +107,11 @@ h4{
 	font-size: 15px;
 	color: #808080;
 	font-family:'Segoe UI', sans-serif;
+	text-align: left;
+}
+
+h5{
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
 	text-align: left;
 }
