@@ -1,3 +1,4 @@
+/* Configurações gerais */
 * {
 	margin: 0;
 	padding: 0;
@@ -14,11 +15,12 @@
 	padding: 100px;
 }
 
-#titulo{
+.titulo{
 	background-color:white;
 	float: right;
 	width: 100%;
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 #parte1{
@@ -28,6 +30,7 @@
 	background-color: white;
 	margin: 10px;
 	padding-top: 200px;
+	text-align: left;
 }
 
 #parte2{
@@ -45,6 +48,7 @@
 	background-color: white;
 	margin: 10px;
 	padding-top: 200px;
+	text-align: right;
 }
 
 #mej{
@@ -80,13 +84,44 @@
 	text-align: center;
 	border: none;
 	border-radius: 5px;
-
 }
+
+#depoimentos{
+	background-color: white;
+	height: 450px;
+	padding: 100px;
+}
+
+.comentario{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-color: white;
+	margin: 40px;
+	text-align: center;
+}
+
+.foto{
+	text-align: left;
+	float: left;
+	margin-left: 30px;
+}
+
+.nome{
+	padding: 20px;
+	float: left;
+}
+#foto3{
+	text-align: left;
+	float: left;
+	margin-left: 60px;
+}
+
+/* Configurações fontes */
 
 h1{
 	font-size: 48px;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
 }
 
 h2{
@@ -98,8 +133,7 @@ h2{
 
 h3{
 	font-size: 17px;
-	font-family:'Segoe UI', sans-serif;
-	text-align: left;
+	font-family: 'Segoe UI', sans-serif;
 	font-weight: bold;
 }
 
@@ -107,11 +141,4 @@ h4{
 	font-size: 15px;
 	color: #808080;
 	font-family:'Segoe UI', sans-serif;
-	text-align: left;
-}
-
-h5{
-	font-size: 48px;
-	font-family: 'Montserrat', sans-serif;
-	text-align: left;
 }
